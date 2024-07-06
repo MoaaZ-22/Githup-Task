@@ -1,4 +1,4 @@
-![Simulator Screenshot - iPhone 15 Pro - 2024-07-06 at 22 47 23](https://github.com/MoaaZ-22/Githup-Task/assets/71730030/0a1f2749-2c6a-46a2-bbc9-24bd9f3e2afd)# Features 
+# Features 
 
  - Bloc for State Management.
  - fetch repos

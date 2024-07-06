@@ -39,7 +39,7 @@ class ImageWithNameAndOwnerAndDate extends StatelessWidget {
               Text(
                 S.of(context).name(repoEntity.nameE),
                 overflow: TextOverflow.ellipsis,
-                maxLines: 1,
+                maxLines: 2,
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               SizedBox(

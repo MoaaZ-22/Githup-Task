@@ -34,28 +34,26 @@ class SearchListWithBuilder extends StatelessWidget {
               );
               // If there are no repos, display a message
             } else {
-              return Expanded(
-                child: ListView.separated(
-                  padding: const EdgeInsets.only(top: 10),
-                  controller: context.read<SearchBloc>().scrollController,
-                  shrinkWrap: true,
+              return ListView.separated(
+                padding: const EdgeInsets.only(top: 10),
+                controller: context.read<SearchBloc>().scrollController,
+                shrinkWrap: true,
 
-                  itemBuilder: (context, index) {
-                    // Create a list of PostListItems for each posts
-                    return index >= state.searchRepos.length
-                        // Display shimmer loading for additional
-                        //items that are not loaded yet
-                        ? const ReposShimmerListItem()
-                        : ReposListViewItem(
-                            repoEntity: state.searchRepos[index],
-                          );
-                  },
-                  separatorBuilder: (context, index) => const CustomDivider(),
-                  // if list has reached max length then hide shimmer
-                  itemCount: state.hasReachedMax
-                      ? state.searchRepos.length
-                      : state.searchRepos.length + 1,
-                ),
+                itemBuilder: (context, index) {
+                  // Create a list of PostListItems for each posts
+                  return index >= state.searchRepos.length
+                      // Display shimmer loading for additional
+                      //items that are not loaded yet
+                      ? const ReposShimmerListItem()
+                      : ReposListViewItem(
+                          repoEntity: state.searchRepos[index],
+                        );
+                },
+                separatorBuilder: (context, index) => const CustomDivider(),
+                // if list has reached max length then hide shimmer
+                itemCount: state.hasReachedMax
+                    ? state.searchRepos.length
+                    : state.searchRepos.length + 1,
               );
             }
           case SearchStatus.error:

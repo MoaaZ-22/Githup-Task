@@ -1,4 +1,4 @@
-# Features 
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-06 at 22 47 23](https://github.com/MoaaZ-22/Githup-Task/assets/71730030/0a1f2749-2c6a-46a2-bbc9-24bd9f3e2afd)# Features 
 
  - Bloc for State Management.
  - fetch repos
@@ -12,8 +12,9 @@
  
  # Screen shots for two deferent Sizes
 
-    -Iphone 15Pro 1179px × 2556px - 6.1-inch 
-  ![Simulator Screenshot - iPhone 15 Pro - 2024-07-06 at 22 26 26](https://github.com/MoaaZ-22/Githup-Task/assets/71730030/485f028f-3094-499f-b51f-af542c46b05f)
+   -Iphone 15Pro 1179px × 2556px - 6.1-inch 
+   
+   ![Simulator Screenshot - iPhone 15 Pro - 2024-07-06 at 22 47 23](https://github.com/MoaaZ-22/Githup-Task/assets/71730030/dda55134-0bdb-4c17-a7ad-274630716a19)
 
    - Samsung Galaxy J6 720 x 1480 - 5.6 inches
-   ![Screenshot_1720294452](https://github.com/MoaaZ-22/Githup-Task/assets/71730030/a0718f26-1e34-444f-9c5e-d13ca60ec204)
+![Screenshot_1720295241](https://github.com/MoaaZ-22/Githup-Task/assets/71730030/12050ccd-4a8e-4991-b661-3a36fd990cbb)

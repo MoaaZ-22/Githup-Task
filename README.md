@@ -9,7 +9,11 @@
  - intl and flutter intl to manage localization
  - very_good_analysis package to add comments to every code
  - wrapper used to wrap list of screen to make any bloc context in wrapper shown
- 
+
+ # Vedio
+
+ https://github.com/MoaaZ-22/Githup-Task/assets/71730030/ff62bd0c-7805-4272-8ff0-e0f3ac86a64e
+
  # Screen shots for two deferent Sizes
 
    -Iphone 15Pro 1179px × 2556px - 6.1-inch 

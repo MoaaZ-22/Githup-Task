@@ -1,0 +1,10 @@
+{
+  "gitHubRepo": "GitHub Repo.",
+  "mainBranch": "Main Branch: {mainBranch}",
+  "name": "Name: {name}",
+  "owner": "Owner: {owner}",
+  "branches": "Branches",
+  "defaultE": "Default",
+  "reposSearch": "Repos Search",
+  "search": "Search"
+}
